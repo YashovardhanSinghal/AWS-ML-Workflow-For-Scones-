@@ -20,7 +20,20 @@ This project demonstrates a machine learning workflow for image classification u
 - Python 3.x installed on your local machine.
 - Required Python libraries: TensorFlow, PyTorch, boto3, etc. (Add specific libraries as per your `script.py` requirements).
 
-### Installation
-1. Clone this repository:
-   ```bash
-   git clone <repository_url>
+##Navigate to the project directory:
+
+`cd AWS-ML-Workflow-Image-Classificatino-main`
+
+##Install required dependencies:
+
+`pip install -r requirements.txt`
+
+##Usage
+
+`Configure AWS Services:` Set up your S3 bucket, SageMaker notebook instance, and other necessary services in AWS.
+`Run the Script:` Execute script.py to start the image classification process. This script handles data loading, model training, and evaluation.
+```python script.py```
+`Monitor Progress:` Use the AWS console to monitor the training jobs, endpoint creation, and predictions.
+
+
+
